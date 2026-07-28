@@ -1,4 +1,4 @@
-import React, { createContext, useState, ReactNode } from 'react';
+import React, { createContext, ReactNode, useState } from 'react';
 
 export type Profile = {
   name: string;
@@ -26,11 +26,11 @@ export const ProfileContext = createContext<ProfileContextType>({
 
 export function ProfileProvider({ children }: { children: ReactNode }) {
   const [profile, setProfile] = useState<Profile>({
-    name: 'Ama Serwaa',
-    indexNumber: '10912345',
-    programme: 'BSc. Computer Science',
-    level: '400',
-    bio: 'Final year CS student passionate about mobile development.',
+    name: 'Isaac Kwame Doe',
+    indexNumber: '22089347',
+    programme: 'BSc. Math. Science',
+    level: '300',
+    bio: 'Passionate about mobile development.',
   });
 
   return (

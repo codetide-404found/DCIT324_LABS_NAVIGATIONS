@@ -14,18 +14,18 @@ export const faqs = [
 
 export const courses = [
   { code: 'DCIT 324', title: 'Mobile Application Development', credits: 3 },
-  { code: 'DCIT 318', title: 'Software Engineering', credits: 3 },
-  { code: 'DCIT 306', title: 'Computer Networks', credits: 3 },
-  { code: 'DCIT 311', title: 'Distributed Computing', credits: 3 },
-  { code: 'MATH 304', title: 'Numerical Methods', credits: 3 },
+  { code: 'DCIT 318', title: 'Programming 2', credits: 3 },
+  { code: 'DCIT 308', title: 'Data Structures & Algorithm 2', credits: 3 },
+  { code: 'DCIT 304', title: 'Research Method', credits: 3 },
+  { code: 'STAT 334', title: 'Inferential Stat 2', credits: 3 },
 ];
 
 export const timetable = [
-  { day: 'Monday', time: '8:00 - 10:00', course: 'DCIT 324', venue: 'CS Lab 1' },
+  { day: 'Monday', time: '7:30 - 9:20', course: 'DCIT 324', venue: 'CS Lab 1' },
   { day: 'Tuesday', time: '10:00 - 12:00', course: 'DCIT 318', venue: 'JQB 12' },
-  { day: 'Wednesday', time: '12:00 - 14:00', course: 'DCIT 306', venue: 'CS Lab 2' },
-  { day: 'Thursday', time: '9:00 - 11:00', course: 'DCIT 311', venue: 'JQB 5' },
-  { day: 'Friday', time: '13:00 - 15:00', course: 'MATH 304', venue: 'Math Dept LT' },
+  { day: 'Wednesday', time: '12:00 - 14:00', course: 'DCIT 304', venue: 'CS Lab 2' },
+  { day: 'Thursday', time: '9:00 - 11:00', course: 'DCIT 308', venue: 'JQB 5' },
+  { day: 'Friday', time: '13:00 - 15:00', course: 'STAT 334', venue: 'STAT 002' },
 ];
 
 export const feed = [
